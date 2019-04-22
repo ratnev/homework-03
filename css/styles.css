@@ -22,7 +22,7 @@ img {
 }
 
 .container {
-    width: 1200px;
+    width: 900px;
     margin: 0 auto;
 }
 
@@ -71,7 +71,7 @@ img {
 .section-board {
     display: inline-block;
     width: 900px;
-    margin: 0 150px;
+    margin: 0;
     font-size: 0;
     padding-bottom: 70px;
 }

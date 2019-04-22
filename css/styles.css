@@ -27,16 +27,19 @@ img {
 }
 
 .main-menu-navigation {
-    display: inline-block;
-    width: 900px;
-    margin: 0 150px;
     padding: 76px 0 104px;
     list-style: none;
     text-align: center;
+    margin: 0;
+    font-size: 0;
 }
 
 .main-menu-navigation li {
     display: inline-block;
+}
+
+.main-menu-item:last-child {
+    margin-right: 0;
 }
 
 .ls {
@@ -70,12 +73,12 @@ img {
     width: 900px;
     margin: 0 150px;
     font-size: 0;
+    padding-bottom: 70px;
 }
 
 .article-board {
     display: inline-block;
     width: 420px;
-    height: 480px;
     margin-right: 60px;
     margin-bottom: 130px;
 }
@@ -88,13 +91,17 @@ img {
     margin-bottom: 0;
 }
 
+.page-img {
+    margin-bottom: 30px;
+}
+
 .image-under-text {
     font-family: 'Ubuntu', sans-serif;
     color: #b4ad9e;
     font-size: 14px;
     line-height: 17px;
     text-transform: uppercase;
-    margin: 30px 0 26px;
+    margin: 0 0 26px;
 }
 
 .h2-text {
@@ -104,6 +111,7 @@ img {
 
 .lorem-text {
     font-size: 14px;
+    margin: 0;
 }
 
 .main-button {
@@ -115,7 +123,7 @@ img {
     display: inline-block;
     text-align: center;
     text-decoration: none;
-    margin: 50px 368px 70px;
+    margin: 50px 368px 0;
     padding: 0;
 }
 
